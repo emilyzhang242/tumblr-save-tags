@@ -14,6 +14,8 @@ Selenium webdriver will open up Mozilla on your computer. If you have a really s
 
 NOTE: Images and gifs will VERY VERY LIKELY not be saved. This script is mainly good for saving text!!
 
+Also, please keep in mind that if you rerun the script on an already existing tag, all the old content in the tag folder will be deleted. This is to make sure the content stays updated as your blog updates.
+
 <h2>Making Changes</h2>
 If the script doesn't work for you because your internet is too slow i.e. nothing loads in 5 seconds, there is a line in the code: <br>
 <code>driver.implicitly_wait(5)</code> <br>
