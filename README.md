@@ -11,3 +11,5 @@ You're basically all set now! Place the python script where you'd like the conte
 <code> python htmlDownload.py BLOG_NAME TAG_NAME NUM_PAGES_IN_TAG </code> 
 
 Selenium webdriver will open up Mozilla on your computer. If you have a really slow internet connection, this script might not work because the webdriver implemented here relies on an implicit wait. Please wait until the script finishes running. Mozilla will close on its own afterwards.
+
+NOTE: Images and gifs will VERY VERY LIKELY not be saved. This script is mainly good for saving text!!
