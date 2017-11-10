@@ -13,3 +13,8 @@ You're basically all set now! Place the python script where you'd like the conte
 Selenium webdriver will open up Mozilla on your computer. If you have a really slow internet connection, this script might not work because the webdriver implemented here relies on an implicit wait. Please wait until the script finishes running. Mozilla will close on its own afterwards.
 
 NOTE: Images and gifs will VERY VERY LIKELY not be saved. This script is mainly good for saving text!!
+
+<h2>Making Changes</h2>
+If the script doesn't work for you because your internet is too slow i.e. nothing loads in 5 seconds, there is a line in the code: <br>
+<code>driver.implicitly_wait(5)</code> <br>
+that determines the wait time before grabbing the html. You can change this number to a number that works for you!
